@@ -1,4 +1,4 @@
-ajax_loading
+simple javascript popup 
 ============
 
-Load html pages through ajax
+Simple javascript popup 

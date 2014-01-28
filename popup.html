@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<title>Simple JavaScript Popup</title>
+<title>Simple JavaScript Popup | Marmik Desai</title>
 <style type="text/css">
 body{
 	margin:0px;
@@ -29,7 +29,7 @@ p{
 	background-color: rgba(255, 255, 255, 0.8);
 	z-index: 2;
 	overflow: auto;
-	padding:2%;
+	padding:30px 2%;
 	margin:0px auto;
 }
 </style>
@@ -41,23 +41,28 @@ $(document).ready(function(){
 });
 function main(){
 	mamu = ($(window).height());
-	$('.cool').css({'height': mamu + 'px'});
-	$('.cool').css({'position': 'fixed'}); 
-	var hei = $('.main').height();
+	$(".cool").css({"height": mamu + "px"});
+	$(".cool").css({"position": "fixed"}); 
+	var hei = $(".main").height();
 	var mam = (mamu - hei) / 3;
-	$('.main').css({'top': mam + "px"});
+//	$(".main").css({"top": mam + "px"});
+	$(".main").css({"height": (mamu - 60) + "px"});
 }
 function clas(){
 	$("#fade").addClass("cool");
 	$("#light").addClass("main");
 }
 function popUp(){
-	$('.cool').css({'display': 'block'});
-	$('.main').css({'display': 'block'});
+	$("body").addClass("overflow");
+	$(".overflow").css({"overflow": "hidden"});
+	$(".cool").css({"display": "block"});
+	$(".main").css({"display": "block"});
 }
 function popUpClose(){
-	$('.cool').css({'display': 'none'});
-	$('.main').css({'display': 'none'});
+	$("body").removeClass("overflow");
+	$("body").css({"overflow": "auto"});
+	$(".cool").css({"display": "none"});
+	$(".main").css({"display": "none"});
 }
 </script>
 </head>
@@ -73,11 +78,59 @@ function popUpClose(){
 	<p> Click here to display popup click <a href="javascript:void(0)" onclick="popUp()"> here</a> </p>
 	<p> Click here to display popup click <a href="javascript:void(0)" onclick="popUp()"> here</a> </p>
 	<p> Click here to display popup click <a href="javascript:void(0)" onclick="popUp()"> here</a> </p>
+	<p> Click here to display popup click <a href="javascript:void(0)" onclick="popUp()"> here</a> </p>
+	<p> Click here to display popup click <a href="javascript:void(0)" onclick="popUp()"> here</a> </p>
+	<p> Click here to display popup click <a href="javascript:void(0)" onclick="popUp()"> here</a> </p>
+	<p> Click here to display popup click <a href="javascript:void(0)" onclick="popUp()"> here</a> </p>
+	<p> Click here to display popup click <a href="javascript:void(0)" onclick="popUp()"> here</a> </p>
+	<p> Click here to display popup click <a href="javascript:void(0)" onclick="popUp()"> here</a> </p>
+	<p> Click here to display popup click <a href="javascript:void(0)" onclick="popUp()"> here</a> </p>
+	<p> Click here to display popup click <a href="javascript:void(0)" onclick="popUp()"> here</a> </p>
+	<p> Click here to display popup click <a href="javascript:void(0)" onclick="popUp()"> here</a> </p>
+	<p> Click here to display popup click <a href="javascript:void(0)" onclick="popUp()"> here</a> </p>
+	<p> Click here to display popup click <a href="javascript:void(0)" onclick="popUp()"> here</a> </p>
+	<p> Click here to display popup click <a href="javascript:void(0)" onclick="popUp()"> here</a> </p>
+	<p> Click here to display popup click <a href="javascript:void(0)" onclick="popUp()"> here</a> </p>
+	<p> Click here to display popup click <a href="javascript:void(0)" onclick="popUp()"> here</a> </p>
+	<p> Click here to display popup click <a href="javascript:void(0)" onclick="popUp()"> here</a> </p>
+	<p> Click here to display popup click <a href="javascript:void(0)" onclick="popUp()"> here</a> </p>
+	<p> Click here to display popup click <a href="javascript:void(0)" onclick="popUp()"> here</a> </p>
+	<p> Click here to display popup click <a href="javascript:void(0)" onclick="popUp()"> here</a> </p>
 </div>
 <div id="fade">
 	<div id="light">
 		<h3> 
 			USE IT, its free
+		</h3>
+		<p> 
+			Marmik Desai
+		</p>
+		<h3> 
+			Lorem Ipsum
+		</h3>
+		<p> 
+			Marmik Desai
+		</p>
+		<h3> 
+			Lorem Ipsum
+		</h3>
+		<p> 
+			Marmik Desai
+		</p>
+		<h3> 
+			Lorem Ipsum
+		</h3>
+		<p> 
+			Marmik Desai
+		</p>
+		<h3> 
+			Lorem Ipsum
+		</h3>
+		<p> 
+			Marmik Desai
+		</p>
+		<h3> 
+			Lorem Ipsum
 		</h3>
 		<p> 
 			Marmik Desai
